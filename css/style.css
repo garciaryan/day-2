@@ -5,6 +5,7 @@
 
 .row {
   height: 200px;
+  border: solid 1px #000;
 }
 
 .col-md-3 {
@@ -31,8 +32,25 @@
   border: 2px solid #000;
 }
 
+.col-lg-6 {
+  background-color: crimson;
+  width: 25%;
+}
+
+.col-lg-offset-3 {
+  border: solid 1px #000;
+}
+
+.col-sm-8 {
+  border: solid 1px #000;
+}
+
 .container-fluid {
   background-color: pink;
+}
+
+.container {
+  background-color: lavender;
 }
 
 /*=======MEDIA QUERIES=======*/
@@ -45,5 +63,10 @@
 @media screen and (min-width: 970px){
   .container-fluid {
     background-color: yellow;
+  }
+}
+@media screen and {max-width: 470px){
+  .container {
+    background-color: #000;
   }
 }
